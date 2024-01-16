@@ -9,7 +9,13 @@ setInterval(() => {
     var fixHalfScreen=document.getElementById("js-game-video");
     fixHalfScreen.style.top = "45vh";
     fixHalfScreen.style.left = "25vw";
-    
+    fixHalfScreen.style.cursor = 'auto';
+    fixHalfScreen.style.opacity = '1';
+    fixHalfScreen.style.top = '50%';
+    fixHalfScreen.style.left = '50%';
+    fixHalfScreen.style.objectFit = 'fill';
+    fixHalfScreen.style.width = '231px';
+    fixHalfScreen.style.height = '410px';
 
     var removeBuggedNavBar = document.querySelector("header");
     removeBuggedNavBar.style.display = "none";
