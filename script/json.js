@@ -31,3 +31,5 @@ function loadItems() {
         console.log(updated_name)
     }
 }
+
+loadItems()
