@@ -1,7 +1,7 @@
 setInterval(() => {
     var div=document.getElementsByTagName("div");
     for (var i=0; i<div.length;i++){
-        if (div[i].className.includes("ad-blocker")){
+        if (div[i].className.includes("ad-blocker") | div[i].className.includes("sc-bXdNzS gEqdDq")){
             div[i].style.display="none";
         }
     }
@@ -15,10 +15,4 @@ setInterval(() => {
 
     var removebottomBar = document.getElementById("ng-control-bar");
     removebottomBar.style.display = "none";
-
-    for (var v=0; 1<div2.length;v++){
-        if (div[v].className.includes('gEqdDq')){
-            div[v].style.display = 'none'
-        }
-    }
 },0);
