@@ -9,8 +9,7 @@ setInterval(() => {
     var fixHalfScreen=document.getElementById("js-game-video");
     fixHalfScreen.style.top = "45vh";
     fixHalfScreen.style.left = "25vw";
-    fixHalfScreen.style.height = "100vh";
-    fixHalfScreen.style.width = '100vw';
+    
 
     var removeBuggedNavBar = document.querySelector("header");
     removeBuggedNavBar.style.display = "none";
