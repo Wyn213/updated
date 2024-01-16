@@ -22,13 +22,14 @@ function convertToUni(string) {
         }
         return inputValue;
 }
-
+var currentItemLinkGG
 function loadItems() {
     for (var i=0;i<list.length;i++) {
         var button = document.createElement("a");
         // convert to unicode
         var updated_name = convertToUni(list[i].name);
         button.innerHTML = updated_name;
+        currentItemLinkGG=list[i].ggLink
         button.onclick = function () {
             document.write(`<iframe class="iframe" id="iframe" onload="newscript();"></iframe>
             <script src="/script/nowgg.js"></script>
@@ -78,7 +79,7 @@ function loadItems() {
                    })();
                 }
                 if (title2==null || title2==undefined || title2==""){
-                    title2="DM Unbl0cker";
+                    title2="GG bypass";
                     document.cookie="title2="+title2+"; expires=Thu, 18 Dec 9013 12:00:00 UTC; path=/";
                     document.title=title2;
                 }
@@ -99,7 +100,7 @@ function loadItems() {
               }
             </script>
             <script>
-              iframe.src=window.location.origin+"${list[i].ggLink}";
+              iframe.src=window.location.origin+"${currentItemLinkGG}";
             </script>
             `)
         }
