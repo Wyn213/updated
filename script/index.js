@@ -31,9 +31,6 @@ document.addEventListener("DOMContentLoaded", async (event) => {
     document.getElementById('frame').contentWindow.document.write("<h1 style=\"background-color: white;\">Failed to register Service worker | " + err.toString() + " | <button onclick='location.reload()'>Return</button></h1>");
     throw err;
   }
-
-  const url = search(address.value, searchEngine.value);
-  document.getElementById("frame").src = __uv$config.prefix + __uv$config.encodeUrl(url);
 });
 
 var bookMarkJson = [];

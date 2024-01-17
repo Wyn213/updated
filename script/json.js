@@ -10,6 +10,10 @@ const list = [
     {
         name: 'Minecraft Trial',
         ggLink: '/service/hvtrs8%2F-nmw%2Cge%2Fcprs-mmjcne%2F0514-mkngcpadt%2Ftpicl%2Chvmn'
+    },
+    {
+        name: "Character Ai",
+        ggLink: ''
     }
 ]
 
