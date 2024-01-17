@@ -45,5 +45,5 @@ form.addEventListener("submit", async (event) => {
   }
 
   const url = search(address.value, searchEngine.value);
-  document.getElementById("outputLink") = __uv$config.prefix + __uv$config.encodeUrl(url);
+  document.getElementById("outputLink").innerHTML = __uv$config.prefix + __uv$config.encodeUrl(url);
 });
