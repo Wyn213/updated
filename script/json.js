@@ -116,4 +116,4 @@ function loadItems() {
     }
 }
 
-loadItems()
+loadItems();document.getElementById("title").innerHTML = convertToUni("NowGG Proxy Bypass")

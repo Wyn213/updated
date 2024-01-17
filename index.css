@@ -117,3 +117,7 @@ body {
 .mark-img {
   display: none;
 }
+
+#title {
+  text-align: center;
+}
