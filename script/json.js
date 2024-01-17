@@ -1,8 +1,15 @@
 const list = [
     {
-        'name': 'Roblox',
-        'link': '/pages/rblx.html',
-        'ggLink': '/service/hvtrs8%2F-nmw%2Cge%2Fcprs-rmbnoz-aoppmrctkol%2F7369-rmbnoz.jtol'
+        name: 'Roblox',
+        ggLink: '/service/hvtrs8%2F-nmw%2Cge%2Fcprs-rmbnoz-aoppmrctkol%2F7369-rmbnoz.jtol'
+    },
+    {
+        name: 'App Launcher',
+        ggLink: '/service/hvtrs8%2F-nmw%2Cge%2Frlcy-ulcwbg%2F5054-nmw'
+    },
+    {
+        name: 'Minecraft Trial',
+        ggLink: '/service/hvtrs8%2F-nmw%2Cge%2Fcprs-mmjcne%2F0514-mkngcpadt%2Ftpicl%2Chvmn'
     }
 ]
 
