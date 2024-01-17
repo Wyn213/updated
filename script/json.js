@@ -22,6 +22,11 @@ const list = [
     {
         name: "Human Playground",
         ggLink: "/service/hvtrs8%2F-nmw%2Cuq%2Frlcy-jkmm-eaoe-53661-hwmcnq-rlcyermuld"
+    },
+    {
+        name: "aptoide",
+        ggLink: "/service/hvtrs8%2F-nmw%2Cge%2Fcprs-artmife-5%3A76%2Fcpvokdg.jtol"
+        
     }
 ]
 
