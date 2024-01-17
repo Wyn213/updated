@@ -13,7 +13,11 @@ const list = [
     },
     {
         name: "Character Ai",
-        ggLink: ''
+        ggLink: '/service/hvtrs8%2F-nmw%2Cge%2Fcprs-cjapaatgr%2Fak%2F74%3A2-cjapaatgr%2Fak-ahct%2Faqk%2Fcpectg.jtol'
+    },
+    {
+        name: "Fortnite (likely slow)",
+        ggLink: '/service/hvtrs8%2F-nmw%2Cge%2Frlcy-eria-eaoeq%2F5328-fmrvnktg'
     }
 ]
 
